@@ -1,4 +1,4 @@
-export const BentoCard = ({
+const BentoCard = ({
   src,
   title,
   description,
@@ -28,3 +28,5 @@ export const BentoCard = ({
     </div>
   );
 };
+
+export default BentoCard;
